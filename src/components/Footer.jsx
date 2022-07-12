@@ -4,7 +4,9 @@ import ReactDom from "react-dom";
 const Footer = () => {
   return (
     <>
-      <h1>footer</h1>
+      <div className="globalBox">
+        <div className="boxFooter"></div>
+      </div>
     </>
   );
 };

@@ -53,3 +53,14 @@
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
 }
+
+
+/* Box Footer */
+
+.boxFooter {
+  border: 1px solid orange;
+  width: 1440px;
+  height: 445px;
+  top: 1855px;
+  position: absolute;
+}
