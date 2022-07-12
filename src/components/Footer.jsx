@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       <div className="globalBox">
         <div className="boxFooter">
-            <div>FooterBootrap</div>
+            <div className="footerBootstrap">FooterBootrap</div>
         </div>
       </div>
     </>
