@@ -1,0 +1,13 @@
+body {
+  background-color: #f5f5f5;
+}
+
+
+.globalBox {
+  width: 769px;
+  height: 1963px;
+  position: absolute;
+  left: 30%;
+  border: 1px solid red;
+  
+}
