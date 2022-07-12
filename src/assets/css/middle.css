@@ -3,10 +3,10 @@
   width: 551px;
   height: 1518px;
   border: 1px solid orange;
-  position: relative;
-  right: 50px;
+  position: absolute;
   display: inline-block;
   top: 336px;
+  left: 120px;
 }
 
 .MiddleColoumn_2 {
@@ -14,8 +14,148 @@
   width: 551px;
   height: 1518px;
   border: 1px solid orange;
-  position: relative;
-  left: 48px;
+  position: absolute;
   display: inline-block;
   top: 335px;
+  right: 120px;
+}
+
+.prevPage {
+  top: 1835px;
+  left: 606px;
+  position: absolute;
+  width: 29px;
+  height: 22px;
+
+  /* Mobile/Text X-Small */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 22px;
+  /* identical to box height, or 169% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.25px;
+
+  /* Primary/Primary */
+
+  color: #f67704;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.nextPage {
+  top: 1835px;
+  left: 804px;
+  position: absolute;
+
+  width: 30px;
+  height: 22px;
+
+  /* Mobile/Text X-Small */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 22px;
+  /* identical to box height, or 169% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.25px;
+
+  /* Primary/Primary */
+
+  color: #f67704;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.borderPageOne {
+  top: 1835px;
+  left: 687px;
+  position: absolute;
+  border: 2.5px solid #f67704;
+  border-radius: 8px;
+  width: 32px;
+}
+
+.pageOne {
+  width: 5px;
+  height: 22px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 22px;
+  /* identical to box height, or 169% */
+
+  display: flex;
+
+  letter-spacing: 0.25px;
+
+  /* Primary/Primary */
+
+  color: #f67704;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  position: relative;
+  left: 10px;
+}
+
+.pageTwo {
+  top: 1835px;
+  left: 744px;
+  position: absolute;
+  width: 8px;
+  height: 22px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 22px;
+  /* identical to box height, or 169% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.25px;
+
+  /* Primary/Primary */
+
+  color: #f67704;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Backend */
+.boxColoumn_1 {
+  top: 50px;
+  position: relative;
+  width: 551px;
+  height: 477px;
+  border: 1px solid red;
 }
