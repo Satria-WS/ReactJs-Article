@@ -1,0 +1,16 @@
+.MiddleColoumn_1 {
+  color: red;
+  width: 551px;
+  height: 100px;
+  border: 1px solid red;
+  position: relative;
+  left: 120px;
+}
+
+.MiddleColoumn_2 {
+  color: red;
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  position: relative;
+}
