@@ -1,16 +1,21 @@
 .MiddleColoumn_1 {
   color: red;
   width: 551px;
-  height: 100px;
-  border: 1px solid red;
+  height: 1518px;
+  border: 1px solid orange;
   position: relative;
-  left: 120px;
+  right: 50px;
+  display: inline-block;
+  top: 336px;
 }
 
 .MiddleColoumn_2 {
   color: red;
-  width: 100px;
-  height: 100px;
-  border: 1px solid red;
+  width: 551px;
+  height: 1518px;
+  border: 1px solid orange;
   position: relative;
+  left: 48px;
+  display: inline-block;
+  top: 335px;
 }
