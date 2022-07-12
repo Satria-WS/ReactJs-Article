@@ -5,7 +5,9 @@ const Footer = () => {
   return (
     <>
       <div className="globalBox">
-        <div className="boxFooter"></div>
+        <div className="boxFooter">
+            <div>FooterBootrap</div>
+        </div>
       </div>
     </>
   );

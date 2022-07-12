@@ -5,7 +5,8 @@ body {
 
 .globalBox {
   width: 1440px;
-  height: 2534px;
+   /* height: 2534px; */
+  height: 2300px;
   left: 14%;
   border: 1px solid red;
   position: absolute;
