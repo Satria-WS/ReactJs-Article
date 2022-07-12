@@ -54,7 +54,6 @@
   -webkit-overflow-scrolling: touch;
 }
 
-
 /* Box Footer */
 
 .boxFooter {
@@ -65,7 +64,6 @@
   position: absolute;
 }
 
-
 /* footer bootstrap */
 .footerBootstrap {
   position: absolute;
@@ -75,8 +73,53 @@
   top: 317px;
 }
 
-
 .Horizontal {
   width: 200px;
-  font-family:Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menuBantuan {
+  width: 54px;
+  height: 32px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  /* identical to box height, or 178% */
+
+  letter-spacing: 0.75px;
+
+  /* Grayscale/Body */
+
+  color: #404040;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: absolute;
+}
+
+.homePusatPrivacy {
+  width: 119px;
+  height: 24px;
+
+  /* Desktop/Text Small */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  letter-spacing: 0.75px;
+
+  /* Grayscale/Body */
+
+  color: #404040;
+  position: absolute;
 }
