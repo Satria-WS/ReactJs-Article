@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDom from "react-dom";
+import newsHot from "../assets/images/newsHot.png";
 
 const Middle = () => {
   return (
@@ -9,9 +10,10 @@ const Middle = () => {
       {/* kolom-1 */}
       <div className="globalBox">
         <div className="MiddleColoumn_1">
+          {/* content */}
           <div className="boxColoumn_1">
-            image
-            <img />
+            <img src={newsHot} />
+            <h3>Safe and reliable</h3>
           </div>
           <div className="boxColoumn_1">
             image
@@ -25,6 +27,9 @@ const Middle = () => {
 
         {/* kolom-2 */}
         <div className="MiddleColoumn_2">
+          {/* content */}
+          <div className="boxColoumn_2">2</div>
+          <div className="boxColoumn_2">2</div>
           <div className="boxColoumn_2">2</div>
         </div>
       </div>

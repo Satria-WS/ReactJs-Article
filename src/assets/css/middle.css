@@ -1,5 +1,5 @@
 .MiddleColoumn_1 {
-  color: red;
+  
   width: 551px;
   height: 1518px;
   border: 1px solid orange;
@@ -10,7 +10,7 @@
 }
 
 .MiddleColoumn_2 {
-  color: red;
+  
   width: 551px;
   height: 1518px;
   border: 1px solid orange;
@@ -153,9 +153,17 @@
 
 /* Backend */
 .boxColoumn_1 {
-  top: 50px;
+  
   position: relative;
   width: 551px;
-  height: 477px;
+  height: 461px;
+  border: 1px solid red;
+}
+
+.boxColoumn_2 {
+  /* top: 50px; */
+  position: relative;
+  width: 551px;
+  height: 461px;
   border: 1px solid red;
 }
