@@ -13,7 +13,13 @@ const Middle = () => {
           {/* content */}
           <div className="boxColoumn_1">
             <img src={newsHot} />
-            <h4>Safe and reliable shipment of your product is out top priority</h4>
+            <h4 className="titleContent">
+              Safe and reliable shipment of your product is out top priority
+            </h4>
+            <div className="dateContent">date</div>
+            <div className="linkContent">#ship #shipping #world #business</div>
+            <div className="descriptionContent ">content</div>
+            <div className="readMoreContent ">read More</div>
           </div>
           <div className="boxColoumn_1">
             image

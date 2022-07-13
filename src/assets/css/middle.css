@@ -1,5 +1,4 @@
 .MiddleColoumn_1 {
-  
   width: 551px;
   height: 1518px;
   border: 1px solid orange;
@@ -10,7 +9,6 @@
 }
 
 .MiddleColoumn_2 {
-  
   width: 551px;
   height: 1518px;
   border: 1px solid orange;
@@ -153,10 +151,9 @@
 
 /* Backend */
 .boxColoumn_1 {
-  
   position: relative;
   width: 551px;
-  height: 461px;
+  height: 490px;
   border: 1px solid red;
 }
 
@@ -168,13 +165,25 @@
   border: 1px solid red;
 }
 
-
-
-
 /* content */
 
 .titleContent {
+  width: 500px;
+  height: 58px;
+  left: 0px;
+  top: 10px;
 
+  font-family: "Montserrat SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: left;
+  position: relative;
+
+  /* Content */
+
+  color: #4a4a4a;
 }
 
 .dateContent {
@@ -182,15 +191,10 @@
 }
 
 .linkContent {
-
 }
 
 .descriptionContent {
-
 }
 
-.readmMreContent {
-    
+.readMoreContent {
 }
-
-
