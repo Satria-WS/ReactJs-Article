@@ -15,7 +15,7 @@ const NewsList = () => {
       setArticles(res.data.articles);
     };
     getArticles();
-  });
+  },[]);
   return (
     <div>
       {articles.map(({ title, description, url, urlToImage }) => (
@@ -28,7 +28,6 @@ const NewsList = () => {
       ))}
 
       {/* <NewsItem/> */}
-      <p>ser</p>
     </div>
   );
 };

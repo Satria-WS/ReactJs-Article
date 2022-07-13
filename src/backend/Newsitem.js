@@ -8,7 +8,7 @@ const NewsItem = ({ title, description, url, urlToImage }) => {
         <a href={url}>{title}</a>
       </h4>
       <p>{description}</p>
-      {/* <h2>test</h2> */}
+      <p>read more</p>
     </div>
   );
 };
