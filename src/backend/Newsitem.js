@@ -23,8 +23,8 @@ const NewsItem = ({
       </div> */}
 
       {/* article page 2 */}
-      <div className="Backend-box_1">
-        <div className=" ">
+      <div className="">
+        <div className=" Backend-box_1">
           <div className="">
             <img className="img_Backend" src={urlToImage} />
             <div>

@@ -1,21 +1,16 @@
 .MiddleColoumn_1 {
-  width: 551px;
-  height: 1518px;
-  border: 1px solid orange;
+
   position: absolute;
   display: inline-block;
-  top: 336px;
-  left: 120px;
+  top: 0px;
+  left: 0px;
 }
 
 .MiddleColoumn_2 {
-  width: 551px;
-  height: 1518px;
-  border: 1px solid orange;
+
   position: absolute;
-  display: inline-block;
-  top: 335px;
-  right: 120px;
+  top: 0px;
+  right: 240px;
 }
 
 .prevPage {
