@@ -11,25 +11,56 @@ const Middle = () => {
       <div className="globalBox">
         <div className="MiddleColoumn_1">
           {/* content */}
+
           <div className="boxColoumn_1">
             <img src={newsHot} />
             <h4 className="titleContent">
               Safe and reliable shipment of your product is out top priority
             </h4>
-            <div className="dateContent">date</div>
-            <div className="linkContent">#ship #shipping #world #business</div>
-            <div className="descriptionContent ">content</div>
-            <div className="readMoreContent ">read More</div>
+            <div className="dateContent">12 Desember 2021</div>
+            <div className="hashtagContent">
+              #ship #shipping #world #business
+            </div>
+            <div className="descriptionContent ">
+              a book or other written or printed work, regarded in terms of its
+              content rather. a book or other writt ...
+            </div>
+            <div className="readMoreContent ">Read More</div>
           </div>
+
           <div className="boxColoumn_1">
-            image
-            <img />
+            <img src={newsHot} />
+            <h4 className="titleContent">
+              Safe and reliable shipment of your product is out top priority
+            </h4>
+            <div className="dateContent">12 Desember 2021</div>
+            <div className="hashtagContent">
+              #ship #shipping #world #business
+            </div>
+            <div className="descriptionContent ">
+              a book or other written or printed work, regarded in terms of its
+              content rather. a book or other writt ...
+            </div>
+            <div className="readMoreContent ">Read More</div>
           </div>
+
           <div className="boxColoumn_1">
-            image
-            <img />
+            <img src={newsHot} />
+            <h4 className="titleContent">
+              Safe and reliable shipment of your product is out top priority
+            </h4>
+            <div className="dateContent">12 Desember 2021</div>
+            <div className="hashtagContent">
+              #ship #shipping #world #business
+            </div>
+            <div className="descriptionContent ">
+              a book or other written or printed work, regarded in terms of its
+              content rather. a book or other writt ...
+            </div>
+            <div className="readMoreContent ">Read More</div>
           </div>
         </div>
+        {/* end */}
 
         {/* kolom-2 */}
         <div className="MiddleColoumn_2">

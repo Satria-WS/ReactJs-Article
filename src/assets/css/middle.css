@@ -187,14 +187,62 @@
 }
 
 .dateContent {
+  position: relative;
+  width: 235px;
+  height: 32px;
 
+  /* Desktop/Text Medium */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  /* identical to box height, or 178% */
+  display: flex;
+  letter-spacing: 0.75px;
+  /* Grayscale/Label */
+  color: #868686;
+  top: 8px;
 }
 
-.linkContent {
+.hashtagContent {
+  position: relative;
+  text-align: left;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  color: #404040;
+  top: 8px;
+}
+.link {
 }
 
 .descriptionContent {
+  position: relative;
+  width: 500px;
+  height: 64px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: left;
+  color: #868686;
+  top: 8px;
 }
 
 .readMoreContent {
+  position: relative;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  letter-spacing: 0.75px;
+  color: #f67704;
+  top: 16px;
 }
