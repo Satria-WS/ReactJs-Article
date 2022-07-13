@@ -178,12 +178,13 @@
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
-  text-align: left;
+  
   position: relative;
 
   /* Content */
 
   color: #4a4a4a;
+  
 }
 
 .dateContent {
@@ -202,7 +203,7 @@
   letter-spacing: 0.75px;
   /* Grayscale/Label */
   color: #868686;
-  top: 8px;
+  top: 16px;
 }
 
 .hashtagContent {
@@ -215,7 +216,7 @@
   line-height: 24px;
   display: flex;
   color: #404040;
-  top: 8px;
+  top: 10px;
 }
 .link {
 }
@@ -244,5 +245,21 @@
   display: flex;
   letter-spacing: 0.75px;
   color: #f67704;
-  top: 16px;
+  top: 50px;
+}
+
+/* experiment backend */
+
+.Backend-box_1 {
+  width: 551px;
+  height: 490px;
+  border: 1px solid orange;
+  position: relative;
+  top: 336px;
+  left: 120px;
+}
+
+.img_Backend {
+  width: 551px;
+  height: 235px;
 }

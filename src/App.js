@@ -1,4 +1,4 @@
-import "./App.css";
+
 import "./assets/css/header.css";
 import "./assets/css/middle.css";
 import "./assets/css/footer.css";
@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App globalWord">
+    <div className="">
       {/* <Header /> */}
       {/* <Middle /> */}
       {/* <Footer /> */}

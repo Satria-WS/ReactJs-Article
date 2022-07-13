@@ -2,6 +2,9 @@ import React from "react";
 import ReactDom from "react-dom";
 import newsHot from "../assets/images/newsHot.png";
 
+import NewsItem from "../backend/Newsitem"
+import NewsList from "../backend/NewsList";
+
 const Middle = () => {
   return (
     <>
@@ -15,7 +18,7 @@ const Middle = () => {
           <div className="boxColoumn_1">
             <img src={newsHot} />
             <h4 className="titleContent">
-              Safe and reliable shipment of your product is out top priority
+              Safe and reliable shipment of your product is out top priorityout to
             </h4>
             <div className="dateContent">12 Desember 2021</div>
             <div className="hashtagContent">

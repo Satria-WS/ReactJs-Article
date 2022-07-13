@@ -81,13 +81,13 @@
 .symbolMagnifier {
   position: relative;
   top: 10px;
-  right: 150px;
+  left: 30px;
 }
 
 .batangSakti {
   position: relative;
-  top: -3px;
-  right: 140px;
+  top: -2px;
+  left: 45px;
 }
 
 .cariArticle {

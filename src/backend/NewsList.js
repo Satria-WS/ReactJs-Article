@@ -8,7 +8,7 @@ const NewsList = () => {
   useEffect(() => {
     const getArticles = async () => {
       const res = await Axios.get(
-        "https://newsapi.org/v2/everything?apiKey=af178ec04288441788f0780ea7b0f93e&q=tesla&from=2022-07-01&sortBy=popularity&language=id&pageSize=1&page=1"
+        "https://newsapi.org/v2/everything?apiKey=af178ec04288441788f0780ea7b0f93e&q=tesla&from=2022-07-01&sortBy=popularity&language=id&pageSize=3&page=2"
       );
       //console.log(res);
     //   console.log(res.data.articles);

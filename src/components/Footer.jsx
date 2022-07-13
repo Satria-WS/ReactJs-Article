@@ -24,7 +24,7 @@ const Footer = () => {
             Bantuan
           </div>
           <div
-            style={{ top: "121px", left: "395px" }}
+            style={{ top: "121px", left: "429px" }}
             className="homePusatPrivacy"
           >
             Home

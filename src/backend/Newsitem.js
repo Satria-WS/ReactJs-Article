@@ -1,10 +1,17 @@
 import React from "react";
 
-const NewsItem = ({ title, description, url, urlToImage, publishedAt , content }) => {
+const NewsItem = ({
+  title,
+  description,
+  url,
+  urlToImage,
+  publishedAt,
+  content,
+}) => {
   return (
     <>
       {/* article original */}
-{/*       <div>
+      {/*       <div>
         <img src={urlToImage} alt="" />
         <h4>
           <a href={url}>{title}</a>
@@ -16,15 +23,26 @@ const NewsItem = ({ title, description, url, urlToImage, publishedAt , content }
       </div> */}
 
       {/* article page 2 */}
-      <div>
-        <h1>
-            <a href={url}>{title}</a>
-        </h1>
-        <h1>{publishedAt}</h1>
-        <img src={urlToImage}/>
-        <p>{description}</p>
-        <p>{content}</p>
+      <div className="Backend-box_1">
+        <div className=" ">
+          <div className="">
+            <img className="img_Backend" src={urlToImage} />
+            <div>
+              <a className="titleContent" href={url}>
+                {title}
+              </a>
+            </div>
 
+            <div className="dateContent">{publishedAt}</div>
+            <div className="hashtagContent">
+              #ship #shipping #world #business
+            </div>
+
+            <div className="descriptionContent ">{description}</div>
+            {/* <p>{content}</p> */}
+            <p className="readMoreContent ">Read More</p>
+          </div>
+        </div>
       </div>
     </>
   );
