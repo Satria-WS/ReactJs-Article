@@ -81,7 +81,7 @@
   top: 1835px;
   left: 687px;
   position: absolute;
-  border: 2.5px solid #f67704;
+  /* border: 2.5px solid #f67704; */
   border-radius: 8px;
   width: 32px;
 }
@@ -149,7 +149,7 @@
   position: relative;
   width: 551px;
   height: 490px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .boxColoumn_2 {
@@ -157,7 +157,7 @@
   position: relative;
   width: 551px;
   height: 461px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 /* content */
@@ -248,7 +248,7 @@
 .Backend-box_1 {
   width: 551px;
   height: 490px;
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   position: relative;
   top: 336px;
   left: 120px;

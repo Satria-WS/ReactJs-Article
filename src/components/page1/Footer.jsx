@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDom from "react-dom";
 import Test from "./test";
-import symbolS from "../assets/images/S.png";
+import symbolS from "../../assets/images/S.png";
 
 const Footer = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
-import facebook from "../assets/images/icons/fb.png";
-import youtube from "../assets/images/icons/Youtube.png";
-import instagram from "../assets/images/icons/iG.png";
+import facebook from "../../assets/images/icons/fb.png";
+import youtube from "../../assets/images/icons/Youtube.png";
+import instagram from "../../assets/images/icons/iG.png";
 
 function TestCode() {
   return (

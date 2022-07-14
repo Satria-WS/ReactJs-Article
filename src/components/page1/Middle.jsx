@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDom from "react-dom";
-import newsHot from "../assets/images/newsHot.png";
+import newsHot from "../../assets/images/newsHot.png";
 
-import NewsItem from "../backend/Newsitem"
-import NewsList from "../backend/NewsList";
+import NewsItem from "../../backend/Newsitem";
+import NewsList from "../../backend/NewsList";
 
 const Middle = () => {
   return (

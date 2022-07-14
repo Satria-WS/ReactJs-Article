@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import symbolS from "../assets/images/S.png";
-import magnifier from "../assets/images/magnificier.png";
-import vector from "../assets/images/Vector.png";
+import symbolS from "../../assets/images/S.png";
+import magnifier from "../../assets/images/magnificier.png";
+import vector from "../../assets/images/Vector.png";
 
 function Header() {
   return (
