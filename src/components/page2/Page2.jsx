@@ -1,8 +1,8 @@
 import React from "react";
 import symbolS from "../../assets/images/S.png";
-import moreThan from "../../assets/images/moreThan.png"
-import right from "../../assets/images/right.png"
-import sampleImage from "./sampleImage.png"
+import moreThan from "../../assets/images/moreThan.png";
+import right from "../../assets/images/right.png";
+import sampleImage from "./sampleImage.png";
 
 function Page2() {
   return (
@@ -32,10 +32,35 @@ function Page2() {
           />
         </div>
         <div className="textBigBoxArticle">
-          <div className="textSmallBoxArticle">box1</div>
+          <div className="textSmallBoxArticle">
+            <p className="PageBox">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+              urna, porttitor rhoncus dolor purus non enim praesent elementum
+              facilisis leo, vel fringilla est ullamcorper eget nulla facilisi
+              etiam dignissim diam quis enim lobortis scelerisque fermentum dui
+              faucibus in ornare quam viverra orci sagittis eu volutpat odio
+              facilisis mauris sit amet massa vitae tortor condimentum lacinia
+              quis vel eros donec ac odio tempor orci dapibus ultrices in
+              iaculis nunc sed augue lacus, viverra vitae congue eu, consequat
+              ac felis donec et odio pellentesque diam volutpat commodo sed
+              egestas egestas fringilla phasellus faucibus
+            </p>
+          </div>
           <div className="textSmallBoxArticle" style={{ top: "93px" }}>
-            {" "}
-            box2{" "}
+            <p className="PageBox">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+              urna, porttitor rhoncus dolor purus non enim praesent elementum
+              facilisis leo, vel fringilla est ullamcorper eget nulla facilisi
+              etiam dignissim diam quis enim lobortis scelerisque fermentum dui
+              faucibus in ornare quam viverra orci sagittis eu volutpat odio
+              facilisis mauris sit amet massa vitae tortor condimentum lacinia
+              quis vel eros donec ac odio tempor orci dapibus ultrices in
+              iaculis nunc sed augue lacus, viverra vitae congue eu, consequat
+              ac felis donec et odio pellentesque diam volutpat commodo sed
+              egestas egestas fringilla phasellus faucibus
+            </p>
           </div>
           <img
             className="ImageArticlePageTwo"
@@ -44,11 +69,56 @@ function Page2() {
             style={{ top: "141px" }}
           />
           <div className="textSmallBoxArticle" style={{ top: "189px" }}>
-            box2
+            <p className="PageBox">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+              urna, porttitor rhoncus dolor purus non enim praesent elementum
+              facilisis leo, vel fringilla est ullamcorper eget nulla facilisi
+              etiam dignissim diam quis enim lobortis scelerisque fermentum dui
+              faucibus in ornare quam viverra orci sagittis eu volutpat odio
+              facilisis mauris sit amet massa vitae tortor condimentum lacinia
+              quis vel eros donec ac odio tempor orci dapibus ultrices in
+              iaculis nunc sed augue lacus, viverra vitae congue eu, consequat
+              ac felis donec et odio pellentesque diam volutpat commodo sed
+              egestas egestas fringilla phasellus faucibus
+            </p>
           </div>
           <div className="textSmallBoxArticle" style={{ top: "237px" }}>
-            box2
+            <p className="PageBox">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+              urna, porttitor rhoncus dolor purus non enim praesent elementum
+              facilisis leo, vel fringilla est ullamcorper eget nulla facilisi
+              etiam dignissim diam quis enim lobortis scelerisque fermentum dui
+              faucibus in ornare quam viverra orci sagittis eu volutpat odio
+              facilisis mauris sit amet massa vitae tortor condimentum lacinia
+              quis vel eros donec ac odio tempor orci dapibus ultrices in
+              iaculis nunc sed augue lacus, viverra vitae congue eu, consequat
+              ac felis donec et odio pellentesque diam volutpat commodo sed
+              egestas egestas fringilla phasellus faucibus
+            </p>
           </div>
+        </div>
+        <div
+          className="hashTagArticle"
+          style={{ left: "120px", top: "2439px" }}
+        >
+          Tag
+        </div>
+        <div
+          className="tagKeywordArticle"
+          style={{ top: "2470px", left: "120px" }}
+        >
+          #ship #shipping #world #business
+        </div>
+        <div className="hashTagArticle" style={{ top: "2550px" }}>
+          Keyword
+        </div>
+        <div className="tagKeywordArticle" style={{ top: "2582px" }}>
+          ship safe priority world business
+        </div>
+        <div className="TextBigTitle" style={{ left: "120px", top: "2742px" }}>
+          Similar
         </div>
       </div>
     </>
