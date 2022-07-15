@@ -4,7 +4,7 @@
   position: absolute;
   border: 1px solid red;
   top: 2400px;
-  left: 350px;
+  left: 21.5%;
 }
 
 .WordArticleSmall {
@@ -93,7 +93,7 @@
   height: 1566px;
   top: 854px;
 
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .textSmallBoxArticle {
@@ -101,7 +101,7 @@
   height: 192px;
   top: 46px;
 
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
 }
 
 .PageBox {
@@ -175,12 +175,12 @@
   position: relative;
   width: 551px;
   height: 550px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .testJson {
   position: relative;
-  border-style: none;
+  /* border-style: none; */
   top: 1100px;
 }
 
