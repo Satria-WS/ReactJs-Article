@@ -8,15 +8,11 @@ import NewsList from "../../backend/NewsList";
 const Middle = () => {
   return (
     <>
-      {/* backend */}
-
       {/* kolom-1 */}
       <div className="globalBox">
         <div className="MiddleColoumn_1">
           <NewsList />
         </div>
-
-        {/* end */}
 
         {/* kolom-2 */}
         <div className="MiddleColoumn_2">

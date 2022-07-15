@@ -12,15 +12,7 @@ const PageTwoArticle = () => {
       const res = await Axios.get(
         "https://newsapi.org/v2/everything?apiKey=af178ec04288441788f0780ea7b0f93e&q=technology&from=2022-07-01&sortBy=relevancy&language=en&pageSize=1&page=2"
       );
-      //   console.log("os");
-      //   console.log(res.data.articles);
-      // console.log(res.data.articles[0].author)
-
-      // setArticles(res.data.articles);
-      // setArticles(res.data.articles[0].author);
-
-      //   const authorName = res.data.articles[0].author;
-
+     
       const articles = res.data.articles[0];
 
       setArticles(
