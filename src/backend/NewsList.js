@@ -2,8 +2,8 @@ import NewsItem from "./Newsitem";
 import React, { useEffect, useState } from "react";
 import Axios from "axios";
 
-const NewsList = () => {
-  const [articles, setArticles] = useState([]);
+const NewsList = () => {const [articles, setArticles] = useState([]);
+  
 
   useEffect(() => {
     const getArticles = async () => {
