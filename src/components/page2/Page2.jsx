@@ -12,7 +12,7 @@ function Page2() {
         <div className="ArticleHeader">Article</div>
         <img className="Symbol_S" src={symbolS} alt="logo" />
         <div className="serbaSerbi">Serba Serbi</div>
-        <div className="TextArticleSmall">Article</div>
+        <div className="WordArticleSmall">Article</div>
         <div>
           <img className="moreThan" src={moreThan} alt="more than" />
         </div>
@@ -31,8 +31,25 @@ function Page2() {
             alt="sample Image"
           />
         </div>
-        <div className="textBoxArticle">sdf</div>
-        <div className="textBoxArticle">sdf</div>
+        <div className="textBigBoxArticle">
+          <div className="textSmallBoxArticle">box1</div>
+          <div className="textSmallBoxArticle" style={{ top: "93px" }}>
+            {" "}
+            box2{" "}
+          </div>
+          <img
+            className="ImageArticlePageTwo"
+            src={sampleImage}
+            alt="sample Image"
+            style={{ top: "141px" }}
+          />
+          <div className="textSmallBoxArticle" style={{ top: "189px" }}>
+            box2
+          </div>
+          <div className="textSmallBoxArticle" style={{ top: "237px" }}>
+            box2
+          </div>
+        </div>
       </div>
     </>
   );

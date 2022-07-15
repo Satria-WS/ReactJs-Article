@@ -7,7 +7,7 @@
   left: 300px;
 }
 
-.TextArticleSmall {
+.WordArticleSmall {
   width: 44px;
   height: 22px;
   position: absolute;
@@ -86,13 +86,20 @@
   top: 26px;
 }
 
-.textBoxArticle {
+.textBigBoxArticle {
   position: relative;
   left: 120px;
   width: 1200px;
-  height: 192px;
-  top: 911px;
-
+  height: 1566px;
+  top: 854px;
 
   border: 1px solid red;
+}
+
+.textSmallBoxArticle {
+  position: relative;
+  height: 192px;
+  top: 46px;
+
+  border: 1px solid pink;
 }
