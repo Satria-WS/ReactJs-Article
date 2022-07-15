@@ -18,8 +18,6 @@ function App() {
       <Header />
       <Middle />
       <Footer />
-      {/* <TestCode/> */}
-      {/* <NewsList/> */}
       <Page2 />
     </div>
   );

@@ -3,6 +3,7 @@ import symbolS from "../../assets/images/S.png";
 import moreThan from "../../assets/images/moreThan.png";
 import right from "../../assets/images/right.png";
 import sampleImage from "./sampleImage.png";
+import PageTwoArticle from "../../backend/PageTwoArticle";
 
 function Page2() {
   return (
@@ -120,6 +121,7 @@ function Page2() {
         <div className="TextBigTitle" style={{ left: "120px", top: "2742px" }}>
           Similar
         </div>
+        <PageTwoArticle/>
       </div>
     </>
   );

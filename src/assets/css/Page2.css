@@ -4,7 +4,7 @@
   position: absolute;
   border: 1px solid red;
   top: 2400px;
-  left: 300px;
+  left: 350px;
 }
 
 .WordArticleSmall {
@@ -169,4 +169,11 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+
+.BoxColoumnPageTwo {
+  position: relative;
+  width: 551px;
+  height: 790px;
+  border: 1px solid red;
 }
