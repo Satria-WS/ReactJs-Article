@@ -55,7 +55,9 @@ const PageTwoArticle = () => {
         <div className="dateContent">{articles.publishedAt}</div>
         <div className="hashtagContent">#ship #shipping #world #business</div>
         <div className="descriptionContent ">{articles.description}</div>
-        <p className="readMoreContent ">Read More</p>
+        <p className="readMoreContent " style={{ top: "90px" }}>
+          Read More
+        </p>
       </div>
       <div
         className="BoxColoumnPageTwo"
@@ -71,7 +73,9 @@ const PageTwoArticle = () => {
         <div className="dateContent">{articles.publishedAt}</div>
         <div className="hashtagContent">#ship #shipping #world #business</div>
         <div className="descriptionContent ">{articles.description}</div>
-        <p className="readMoreContent ">Read More</p>
+        <p className="readMoreContent " style={{ top: "90px" }}>
+          Read More
+        </p>
       </div>
 
       <div>
