@@ -15,9 +15,9 @@ import Page2 from "./components/page2/Page2";
 function App() {
   return (
     <div className="">
-      {/* <Header /> */}
-      {/* <Middle /> */}
-      {/* <Footer /> */}
+      <Header />
+      <Middle />
+      <Footer />
       <Page2 />
     </div>
   );
